@@ -8,10 +8,7 @@ p{
   border: solid 2px #000000;
   background-color: #ffc35b;
   text-indent: 20px;
-  float: left;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 10px;}
+  position: left;}
 
  #content {
   background-color: #ffa200;
