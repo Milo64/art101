@@ -1,9 +1,36 @@
-div#body{
-  color
+H1{
+  color:black;
+  font-size: 200%;
 }
 
-{padding: 10 px;
+p{
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #a75429;}
-    
+  border: solid 2px #000000;
+  background-color: #ffc35b;
+  text-indent: 20px;
+  float: left;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;}
+
+ #content {
+  background-color: #ffa200;
+  padding: 10px;}
+ 
+ body{
+  background-color: #ffa200;
+  border: none;}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #000000;
+    background-color: #ffc35b;}
+
+#Garfield {
+width: 30%;
+height: auto;
+border: bold 10px #000000;
+float: right;
+}
+
