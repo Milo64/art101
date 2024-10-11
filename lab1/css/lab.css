@@ -2,19 +2,24 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #000000;
-    background-color: #ffa200;
+    background-color: transparent;
    }
   
   body{
     border: none;
+    background-image: url(https://i.pinimg.com/564x/9f/a0/c1/9fa0c18e22c133a13da146c84a2d822b.jpg);
+    background-size: auto;
+    opacity: 80%; 
+    
   }
     
     #content {
-      background-color: #ffa200;
+      background-color: #e9bb65;
       padding: 10px;
       border:none; }
 
       p{ 
-        font-size: 25px; }
+        font-size: 25px; 
+      }
 
       
