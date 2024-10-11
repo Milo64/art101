@@ -7,7 +7,8 @@ H1{
 p{
   margin-bottom: 10px;
   text-indent: 20px;
-  border: solid 4px #000000; }
+  overflow: hidden;
+}
 
  #content {
   background-color: #ffa200;
@@ -19,9 +20,17 @@ p{
   background-color: #ffa200;
   border: none;}
 
-#Garfield {
-width: 30%;
+.Garfield {
+width: 150px;
 height: auto;
 border: bold 10px #000000;
-float: right;  }
+float: right; 
+margin-bottom: 10px; }
+
+.box {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 4px #000000;
+  overflow: hidden;
+}
 
