@@ -1,6 +1,7 @@
 body {
   background-color: #205720;
 }
- #picture {
-  size: 150px;
- }
+ #my_photo {width: 250px;
+height: auto;}
+ 
+#box {background-color: #5c985c;}
