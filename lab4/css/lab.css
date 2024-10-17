@@ -11,14 +11,15 @@
     background-color: #5572bc;
     border-color: #000000;}
   
-  #pseudocode { 
-    width: 210x;
+  #html_outline { 
+    width: 500px;
     height: auto;}
   
   #javascript_html{
-    width: 210px;
+    width: 500px;
     height: auto;}
 
   #javascript  {
-    width: 210px;
-    height: auto;}
+    width: 500px;
+    height: auto;
+  }
