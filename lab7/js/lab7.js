@@ -1,6 +1,6 @@
 
 // Author: Milo Rodriguez 
-// Date: October 21, 2024
+// Date: October 28, 2024
 // License: MILO_LAND
 
 function sortUserName(){
@@ -14,8 +14,10 @@ function sortUserName(){
     console.log("nameArraySort=", nameArraySort);
  //convert array back to string
     var nameSorted = nameArraySort.join('');
-    console.log("nameSorted=", nameSorted);}
+    console.log("nameSorted=", nameSorted);
+    return nameSorted;
+   }
 
 //output
-    document.writeln("Howdy again.I fixed your New name.",sortUserName(), "<b/br>");
+    document.writeln("Howdy again.I fixed your new username is ..",sortUserName(), "<b/br>");
 
