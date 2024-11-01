@@ -1,21 +1,23 @@
 
 // Author: Milo Rodriguez 
-// Date: October 29, 2024
+// Date: October 31, 2024
 // License: MILO_LAND
 
-function Adding(x){  
-   var results = 20 + x;
+let myArray= [1,2,3,4,5,6];
+
+function adding(x){
+   var results= 20 + x;
    return results;}
-//test function
-   console.log("What is 20 plus x?", addding(0));
-   console.log("what is 20 plus x?", addiing(2));
+//addition
+let addedResults = myArray.map(adding);
+console.log("Added Results:", addedResults);
+//Added Results: [21, 22, 23, 24, 25, 26]
 
-   myAarray = [1,2,3,4,5,6];
-   console.log("My Aarray", myAarray);
+//subtraction
+let subtractedResults = myArray.map(function(x){
+   var results= 15 - x;
+   return results;})
+console.log("Subtracted Results:", subtractedResults);
+//Results: [14, 13, 12, 11, 10, 9]
 
-   var results= myAarray.map(Adding);
-   console.log("results:", results);
-
-   myArray.map(function(x){                                  
-      var results = 15 - x;                                     
-       return results;})
+      
