@@ -1,0 +1,25 @@
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 5px #000000;
+  background-color: #89c067; }
+
+body {
+  background-color: #630a79; }
+
+#content {
+  background-color: #36700a;
+  border-color: #000000;}
+
+.text p {
+  display:block;
+  max-width: 100%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  border: dotted 5px;
+  background-color: #7e49a8;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+}
