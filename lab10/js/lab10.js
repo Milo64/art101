@@ -21,4 +21,3 @@ function generateRandomText() {
 $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
  
- 
