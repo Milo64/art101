@@ -1,11 +1,10 @@
-
 // Author: Milo Rodriguez 
 // Date: Nov 7th, 2024
 // License: MILO_LAND
-// lab.js - This simple JavaScript/jQuery script appends new elements to an output div
+// lab.js: This simple JavaScript/jQuery script appends new elements to an output div
 
 function generateRandomText() {
-    const text = "'Winston, you’ve been staring at this girl for 5 minutes. Please tell me youre checking her out, otherwise youre a serial killer. Which would explain a lot.' Schmidt: New Girl, New Girl Season 2: Fluffer";
+    const text = "'Winston, youve been staring at this girl for 5 minutes. Please tell me youre checking her out, otherwise youre a serial killer. Which would explain a lot.' Schmidt: New Girl, New Girl Season 2: Fluffer";
     const min = 5;
     const max = 80;
     const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
@@ -20,7 +19,6 @@ function generateRandomText() {
     const newText= generateRandomText();
 // append a new div to our output div
 $("#output").append('<div class="text"><p>' + newText + '</p></div>');
- 
 });
  
  
