@@ -1,0 +1,32 @@
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 5px #000000;
+  background-color: #e6af61; }
+
+body {
+  background-color: #000000; }
+
+#content {
+  background-color:#D68717;
+  border-color: #000000;}
+
+.Garfield {
+  height: 200px;
+  width: auto;
+}
+
+.Oddie {
+  height: 200px;
+  width: auto;
+}
+
+.Nermal {
+  height: 200px;
+  width: auto;
+}
+
+.John {
+  height: 200px;
+  width: auto;
+}
