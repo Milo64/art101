@@ -1,0 +1,19 @@
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 5px #000000;
+  background-color: #a461e6; }
+
+body {
+  background-color: #000000; }
+
+#content {
+  background-color:#550680;
+  border-color: #000000;}
+
+#output {
+  column-count: 6;
+  column-gap: 40px;
+  column-rule-style: double;
+  border: dotted 5px #000000;
+}
