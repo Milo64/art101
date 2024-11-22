@@ -1,0 +1,26 @@
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 5px #000000;
+  background-color: #5984af; 
+}
+
+body {
+  background-color: #ff9500; }
+
+#content {
+  background-color: #ff9500; 
+  border-color: #000000;
+}
+
+
+.my_photo {
+  width: 200px;
+  height: auto;
+}
+
+
+.garf_gif {
+  width: 300px;
+  height: auto;
+}
