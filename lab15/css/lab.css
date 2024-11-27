@@ -1,0 +1,32 @@
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 5px #000000;
+  background-color:#618742;}
+
+body {background-color: #000000;}
+
+#content {
+  background-color:#285305;
+  border-color: #000000;}
+
+  #dino1 {
+    width: 200px;
+    height: auto;}
+
+  #dino2 {
+    width: 200px;
+    height: auto;}
+
+  #dino3 {
+      width: 200px;
+      height: auto;}
+
+  #dino4 {
+        width: 200px;
+        height: auto;}    
+  
+   
+    
+  
+  
