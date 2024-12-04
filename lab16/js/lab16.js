@@ -3,12 +3,9 @@
 // License: MILO_LAND
 
 $(document).ready(function (){
-
 const comicUrl = "https://cors-anywhere.herokuapp.com/https://xkcd.com/614/info.0.json";
 
-
 $.ajax({
-
     url: comicUrl,
     type: "GET",
     dataType: "json",
@@ -21,5 +18,4 @@ $.ajax({
         console.log("Error:", textStatus, errorThrown);
     }
 });
-
 });
