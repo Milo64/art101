@@ -2,27 +2,23 @@
 // Date: Dec 3rd, 2024
 // License: MILO_LAND
 
-$(comic).ready(function (){
+$(document).ready(function (){
 
-const comicUrl  = "https://xkcd.com/614/info.0.json";
+const comicUrl = "https://cors-anywhere.herokuapp.com/https://xkcd.com/614/info.0.json";
 
-$a.jax({
 
-    URL: comicUrl,
-    typeof: "GET",
+$.ajax({
+
+    url: comicUrl,
+    type: "GET",
     dataType: "json",
     success: function (data) {
-
         const comic = data;
 
-        $('#output').append('<h3>${comic.title}</h3');
-        $('#output').append(
-        <img src="${comic.img}"></img>
-
-        );
+        $('#output').append(`<h3>${comic.title}</h3>`);
     },
     error: function(jqXHR, textStatus, errorThrown) {
-        consolelog("ERROR:", textStatus, errorThrown);
+        console.log("Error:", textStatus, errorThrown);
     }
 });
 
